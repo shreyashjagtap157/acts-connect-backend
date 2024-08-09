@@ -65,5 +65,6 @@ public class User {
   @Column
   private String profilePictureUrl;
 
-  // Add any additional fields or methods if necessary
+  @Column
+  private boolean approved = false;
 }
