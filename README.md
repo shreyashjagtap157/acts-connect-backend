@@ -34,7 +34,7 @@ Linux/macOS:
 Windows PowerShell:
 
 ```powershell
-.`mvnw.cmd` verify
+.\mvnw.cmd verify
 ```
 
 Use local, untracked configuration for database credentials, JWT signing material and other secrets. Never commit production credentials or reuse secrets from logs or examples.
